@@ -1,0 +1,56 @@
+.loginPage {
+    background-color: rgb(8, 16, 40);
+    form {
+        background-color: rgb(11, 23, 57);
+        color: rgb(174, 185, 225);
+        h2 {
+            color: #ffffff;
+        }
+        button {
+            padding: 8px 12px;
+            border-radius: 4px;
+            background-color: rgb(10, 19, 48);
+            color: #ffffff;
+            border: none;
+            transition: .3s ease all;
+            &:hover {
+                background-color: rgb(203, 60, 255);
+            }
+        }
+        hr {
+            width: 35%;
+            height: 1px;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            border-radius: 4px;
+            border: 1px solid rgb(52, 59, 79);
+            background-color: rgb(11, 23, 57) !important;
+            outline: none;
+            color: #ffffff;
+        }
+        input::placeholder {
+            color: rgb(174, 185, 225);
+        }
+        .link {
+            color: rgb(186, 0, 253);
+            text-decoration: none;
+            transition: .3s ease all;
+            &:hover {
+                color: rgb(203, 60, 255);
+            }
+        }
+        .sub {
+            background-image: linear-gradient(128.49deg, rgb(203, 60, 255) 19.86%, rgb(127, 37, 251) 68.34%);
+            width: 100%;
+            transition: .3s ease all;
+            &:hover {
+                background-image: linear-gradient(128.49deg,  rgb(127, 37, 251) 19.86%, rgb(203, 60, 255) 68.34%);
+            }
+        }
+        p {
+        font-size: 1.1rem;
+        }
+    }
+}

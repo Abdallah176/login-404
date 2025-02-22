@@ -1,0 +1,22 @@
+.Profile {
+    background-color: rgb(8, 16, 40);
+    h1 {
+        color: #ffffff;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+    button {
+        padding: 10px 30px;
+        border-radius: 10px;
+        letter-spacing: 2px;
+        background-color: rgb(16, 30, 76);
+        color: #ffffff;
+        font-weight: 500;
+        border: none;
+        transition: .3s ease all;
+        &:hover {
+            background-color: rgb(203, 60, 255);
+        }
+    }
+}
